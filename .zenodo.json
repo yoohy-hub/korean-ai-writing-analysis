@@ -1,0 +1,33 @@
+{
+  "title": "Korean AI collaborative writing analysis: Code and pseudonymized analytical data",
+  "upload_type": "software",
+  "description": "Researcher-written Python analysis code and pseudonymized paper-scope analytical data: six F1–F3 automated measures, F4 grammatical-error measurements, F5–F8 form-source metrics, and F9/F10 coding labels. The package contains 252 text rows, 84 task rows and 802 coded meaning units. Learner text and direct/original identifiers are excluded. Raw statistics and within-measure pairwise tests can be replayed; previously reported omnibus adjusted p-values are reference-only and are excluded from independent recalculation claims. 논문 분석 범위의 Python 코드와 가명 분석 자료를 제공하며, 학습자 원문과 식별 정보는 공개하지 않는다.",
+  "creators": [
+    {
+      "name": "Liu, Huan-Yi",
+      "orcid": "0009-0000-9116-9810",
+      "affiliation": "Institute of Humanities, Sungkyunkwan University"
+    }
+  ],
+  "version": "1.0.0",
+  "publication_date": "2026-11-13",
+  "license": "MIT",
+  "keywords": [
+    "Korean language education",
+    "AI collaborative writing",
+    "natural language processing",
+    "reproducibility",
+    "pseudonymized data",
+    "한국어교육",
+    "AI 협업 글쓰기"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/yoohy-hub/korean-ai-writing-analysis",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
+  "notes": "Executable code: MIT. Pseudonymized data, aggregate tables and research documentation: CC BY 4.0. Original learner texts and identifiers are excluded.",
+  "doi": "10.5281/zenodo.24191921"
+}

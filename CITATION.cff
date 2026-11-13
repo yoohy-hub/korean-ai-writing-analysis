@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Please cite this release. Code is MIT; pseudonymized data, tables, validation records and documentation are CC BY 4.0. See README for the scoped license terms."
+type: software
+title: "Korean AI collaborative writing analysis: Code and pseudonymized analytical data"
+authors:
+  - family-names: Liu
+    given-names: Huan-Yi
+    orcid: "https://orcid.org/0009-0000-9116-9810"
+    affiliation: "Institute of Humanities, Sungkyunkwan University"
+version: 1.0.0
+date-released: 2026-11-13
+url: "https://github.com/yoohy-hub/korean-ai-writing-analysis"
+license:
+  - MIT
+  - CC-BY-4.0
+doi: "10.5281/zenodo.24191921"

@@ -1,0 +1,12 @@
+{
+  "kind": "authorized external-input paper-scope measurement check",
+  "text_rows": 252,
+  "automated_F1_F3_measures": 6,
+  "measurement_cells_checked": 1512,
+  "measurement_mismatches": 0,
+  "source_cells_checked": 840,
+  "source_mismatches": 0,
+  "input_unchanged": true,
+  "learner_text_included_in_report": false,
+  "status": "PASS"
+}

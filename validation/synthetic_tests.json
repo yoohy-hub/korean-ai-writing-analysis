@@ -1,0 +1,9 @@
+{
+  "generated_at_utc": "2026-11-13T16:19:09.558218+00:00",
+  "kind": "synthetic regression tests",
+  "tests_run": 16,
+  "failures": 0,
+  "errors": 0,
+  "status": "PASS",
+  "scope": "전처리·MATTR·출처 집합·통계 함수·선택 열 누락. 실제 데이터 검증과 별개."
+}

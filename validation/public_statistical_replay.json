@@ -1,0 +1,241 @@
+{
+  "status": "PASS_SCOPED_REPLAY",
+  "scope": "paper-scope public numerical statistical replay",
+  "started_at_utc": "2026-11-13T16:19:13.808547+00:00",
+  "finished_at_utc": "2026-11-13T16:19:14.265898+00:00",
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.2.6",
+    "pandas": "2.2.3",
+    "scipy": "1.16.1",
+    "kiwipiepy": "0.23.2",
+    "kiwipiepy-model": "0.23.0"
+  },
+  "input_sha256": {
+    "text_metrics.csv": "e1bfe148a60a40f817cf1b8db0c36687d35c7941548f801446067a03d42443a0",
+    "source_metrics.csv": "9e61399fe3ecedf2fbeea13cb4f61300b2f8c76d3e8e282db3f99705836df716",
+    "meaning_codes.csv": "4eb977cc60c2b768bb809bda76d8744f70d8693a8232aefda2e2b910258b6fc8"
+  },
+  "input_files_unchanged": true,
+  "participants": 28,
+  "tasks": 84,
+  "text_metric_rows": 252,
+  "meaning_code_rows": 802,
+  "generated_tables": 13,
+  "nlp_recomputed": false,
+  "manual_coding_changed": false,
+  "rq1": {
+    "mode": "manuscript_scope_numeric_replay",
+    "participants": 28,
+    "tasks": 84,
+    "texts": 252,
+    "automated_manuscript_measures": 6,
+    "manual_accuracy_measures": 1,
+    "outputs": [
+      "RQ1_ABC_six_measures.csv",
+      "RQ1_ABC_pairwise.csv",
+      "RQ1_F4_ABC.csv",
+      "RQ1_F4_pairwise.csv",
+      "RQ1_topic_seven_measures.csv",
+      "RQ1_topic_pairwise.csv"
+    ],
+    "nlp_recomputed": false,
+    "manual_coding_changed": false,
+    "omnibus_adjusted_p_recalculated": false,
+    "omnibus_adjusted_p_policy": "Stored manuscript values are reference-only. Computed tables contain unadjusted omnibus p-values and within-measure pairwise Holm values."
+  },
+  "rq2": {
+    "tables": [
+      {
+        "file": "RQ2_23_F5_F8_학습자단위_BCa95.csv",
+        "rows": 4,
+        "columns": 19
+      },
+      {
+        "file": "RQ2_25_F5_F8_유형효과_Friedman.csv",
+        "rows": 4,
+        "columns": 21
+      },
+      {
+        "file": "RQ2_26_F5_F8_유형사후_Wilcoxon.csv",
+        "rows": 12,
+        "columns": 9
+      },
+      {
+        "file": "RQ2_F9_F10_분포.csv",
+        "rows": 88,
+        "columns": 6
+      },
+      {
+        "file": "RQ2_F9_F10_출처별_F9.csv",
+        "rows": 30,
+        "columns": 5
+      },
+      {
+        "file": "RQ2_F9_F10_유형효과_Friedman.csv",
+        "rows": 22,
+        "columns": 12
+      },
+      {
+        "file": "RQ2_F9_F10_유형사후_Wilcoxon.csv",
+        "rows": 66,
+        "columns": 13
+      }
+    ],
+    "bootstrap": {
+      "method": "BCa",
+      "confidence_level": 0.95,
+      "n_resamples": 20000,
+      "seed": 20260820,
+      "learner_order": "public participant_id ascending",
+      "original_limits_may_differ_due_to_finite_resampling_order": true,
+      "original_confidence_limits_are_not_modified": true
+    }
+  },
+  "scoped_reference_comparison": {
+    "rq1": {
+      "passed": true,
+      "checked_numeric_cells": 218,
+      "tolerance": {
+        "relative": 1e-08,
+        "absolute": 1e-09
+      },
+      "failed_checks": [],
+      "omnibus_adjusted_p_recalculated": false,
+      "reference_only_fields": {
+        "ABC": [
+          "Holm_p"
+        ],
+        "topic": [
+          "전체_Holm_p",
+          "판정"
+        ]
+      },
+      "scope": "Descriptive statistics, omnibus statistics/df/unadjusted p/effect sizes, and within-measure pairwise Holm results. Reference-only omnibus adjusted p-values are not claimed as recalculated."
+    },
+    "rq2": {
+      "deterministic_statistics_passed": true,
+      "comparison_tolerance": {
+        "relative": 1e-08,
+        "absolute": 1e-09
+      },
+      "tables": [
+        {
+          "file": "RQ2_23_F5_F8_학습자단위_BCa95.csv",
+          "shape_match": true,
+          "deterministic_cells_passed": true,
+          "mismatch_columns": []
+        },
+        {
+          "file": "RQ2_25_F5_F8_유형효과_Friedman.csv",
+          "shape_match": true,
+          "deterministic_cells_passed": true,
+          "mismatch_columns": []
+        },
+        {
+          "file": "RQ2_26_F5_F8_유형사후_Wilcoxon.csv",
+          "shape_match": true,
+          "deterministic_cells_passed": true,
+          "mismatch_columns": []
+        },
+        {
+          "file": "RQ2_F9_F10_분포.csv",
+          "shape_match": true,
+          "deterministic_cells_passed": true,
+          "mismatch_columns": []
+        },
+        {
+          "file": "RQ2_F9_F10_출처별_F9.csv",
+          "shape_match": true,
+          "deterministic_cells_passed": true,
+          "mismatch_columns": []
+        },
+        {
+          "file": "RQ2_F9_F10_유형효과_Friedman.csv",
+          "shape_match": true,
+          "deterministic_cells_passed": true,
+          "mismatch_columns": []
+        },
+        {
+          "file": "RQ2_F9_F10_유형사후_Wilcoxon.csv",
+          "shape_match": true,
+          "deterministic_cells_passed": true,
+          "mismatch_columns": []
+        }
+      ],
+      "bca_confidence_limit_comparison": {
+        "different_cells": 8,
+        "max_absolute_difference": 0.003192972101514424,
+        "details": [
+          {
+            "metric": "F5 형태 유지율 R_A",
+            "column": "학습자평균_BCa95_low",
+            "public_replay": 0.2998748998877967,
+            "original_reference": 0.3011069925208523,
+            "absolute_difference": 0.0012320926330556259
+          },
+          {
+            "metric": "F6 형태 차용률 R_B",
+            "column": "학습자평균_BCa95_low",
+            "public_replay": 0.2816989999873444,
+            "original_reference": 0.2815535949081659,
+            "absolute_difference": 0.00014540507917848444
+          },
+          {
+            "metric": "F7 형태 신규율 N_C",
+            "column": "학습자평균_BCa95_low",
+            "public_replay": 0.3379498273071007,
+            "original_reference": 0.3376264909735972,
+            "absolute_difference": 0.00032333633350351
+          },
+          {
+            "metric": "F8 근접도 P",
+            "column": "학습자평균_BCa95_low",
+            "public_replay": -0.1595354893359945,
+            "original_reference": -0.1563425172344801,
+            "absolute_difference": 0.003192972101514424
+          },
+          {
+            "metric": "F5 형태 유지율 R_A",
+            "column": "학습자평균_BCa95_high",
+            "public_replay": 0.440074907264287,
+            "original_reference": 0.4397730569463279,
+            "absolute_difference": 0.0003018503179590959
+          },
+          {
+            "metric": "F6 형태 차용률 R_B",
+            "column": "학습자평균_BCa95_high",
+            "public_replay": 0.4042793524456602,
+            "original_reference": 0.4050506744472985,
+            "absolute_difference": 0.0007713220016382638
+          },
+          {
+            "metric": "F7 형태 신규율 N_C",
+            "column": "학습자평균_BCa95_high",
+            "public_replay": 0.472334992131317,
+            "original_reference": 0.4717646862363109,
+            "absolute_difference": 0.000570305895006118
+          },
+          {
+            "metric": "F8 근접도 P",
+            "column": "학습자평균_BCa95_high",
+            "public_replay": 0.1274372102044223,
+            "original_reference": 0.1294249132608886,
+            "absolute_difference": 0.0019877030564662834
+          }
+        ],
+        "explanation": "Public participant-ID ordering changes finite Monte Carlo resamples; original limits are retained in references."
+      }
+    }
+  },
+  "canonical_public_bootstrap_validation": {
+    "available": true,
+    "passed": true
+  },
+  "limits": [
+    "Previously reported omnibus adjusted p-values are retained only in reference tables, excluded from recalculation and from independent-agreement claims.",
+    "Learner text is not distributed. Public numerical replay does not remeasure NLP features.",
+    "Computational agreement does not establish annotation validity or intercoder reliability.",
+    "Finite BCa confidence limits may differ from original references because public participant order is pseudonymized; the separate public-order reference is checked."
+  ]
+}

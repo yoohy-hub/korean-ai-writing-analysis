@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+new_run/
+private_mapping.json
+*private_mapping*
+*.xlsx
+*.jsonl
+*.hwp
+*.hwpx
+*.docx

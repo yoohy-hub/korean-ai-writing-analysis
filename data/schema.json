@@ -1,0 +1,52 @@
+{
+  "text_metrics.csv": {
+    "rows": 252,
+    "columns": [
+      "participant_id",
+      "task_id",
+      "genre",
+      "version",
+      "characters",
+      "eojeols",
+      "sentences",
+      "mean_sentence_length",
+      "mattr20",
+      "predicates_per_sentence",
+      "manual_errors_per_100_eojeols",
+      "manual_error_count",
+      "mattr_short_ttr"
+    ]
+  },
+  "meaning_codes.csv": {
+    "rows": 802,
+    "columns": [
+      "unit_id",
+      "participant_id",
+      "task_id",
+      "genre",
+      "meaning_source",
+      "f9",
+      "f10_codes"
+    ]
+  },
+  "source_metrics.csv": {
+    "rows": 84,
+    "columns": [
+      "participant_id",
+      "task_id",
+      "genre",
+      "retention_ra",
+      "borrowing_rb",
+      "novelty_nc",
+      "proximity_p",
+      "a_unique_bigrams",
+      "b_unique_bigrams",
+      "c_bigrams",
+      "a_retained_bigrams",
+      "b_borrowed_bigrams",
+      "c_new_bigrams"
+    ]
+  },
+  "value_policy": "Paper-scope numerical measurements and existing coding labels; retained cell values are unchanged. Learner text and direct identifiers are excluded.",
+  "privacy": "Independently shuffled participant/task/unit pseudonyms; no identity keys, original identifiers, learner texts or contact details."
+}
