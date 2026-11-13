@@ -8,7 +8,7 @@ This package contains the Python code and pseudonymized numerical and categorica
 
 ## Study design and measures
 
-Twenty-eight intermediate learners of Korean completed three writing tasks (self-introduction, secondhand sale and social networking service [SNS]) in the first semester of the 2026 academic year. Each task yielded a learner draft (A), an AI-generated version (B) and a collaboratively revised final version (C), giving 84 tasks and 252 texts in total. Draft A was produced before Version B. The AI tools, the prompts and whether A was provided to the AI were not controlled separately; B is therefore not assumed to be independent of A.
+Twenty-eight intermediate learners of Korean completed three writing tasks (self-introduction, secondhand sale and social media [SNS] post) in the first semester of the 2026 academic year. Each task yielded a learner draft (A), an AI-generated version (B) and a collaboratively revised final version (C), giving 84 tasks and 252 texts in total. Draft A was produced before Version B. The AI tools, the prompts and whether A was provided to the AI were not controlled separately; B is therefore not assumed to be independent of A.
 
 The paper reports six automated measures across F1–F3:
 
