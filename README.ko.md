@@ -2,7 +2,7 @@
 
 [English](README.md) · [변수 설명](DATA_DICTIONARY.ko.md) · [자료 공개 범위](DATA_AVAILABILITY.md)
 
-저자: **Huan-Yi Liu** · Institute of Humanities, Sungkyunkwan University · [ORCID](https://orcid.org/0009-0000-9116-9810)
+저자: **유환일** · 성균관대학교 · [ORCID](https://orcid.org/0009-0000-9116-9810)
 
 논문의 분석 범위에 해당하는 Python 코드와 가명화 수치·범주 자료를 제공한다. 학습자 원문·실명·원 식별자·이름 대응표·원본 Excel/JSONL은 공개하지 않는다. 공개 범위 점검일: **2026-11-14**.
 
